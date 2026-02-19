@@ -1,0 +1,128 @@
+{
+  "model_version": "V200_Global_Rolling",
+  "recalibration_date": "2026-02-19T20:42:05Z",
+  "rolling_window_days": 90,
+  "data_date_range": {
+    "start": "2026-01-24",
+    "end": "2026-02-19"
+  },
+  "total_samples": 60480,
+  "tiers": {
+    "T1_micro": {
+      "status": "CALIBRATED",
+      "name": "T1_micro",
+      "magnitude": 2.5,
+      "window_days": 2,
+      "n_samples": 15120,
+      "n_positives": 1113,
+      "base_rate": 0.082812,
+      "probability_stats": {
+        "mean": 0.402976,
+        "std": 0.166276,
+        "min": 0.082299,
+        "max": 0.996178,
+        "p25": 0.298788,
+        "p50": 0.349,
+        "p75": 0.443119,
+        "p90": 0.6891,
+        "p95": 0.805958,
+        "p99": 0.925315
+      },
+      "thresholds": {
+        "0.5": 0.963129,
+        "1.0": 0.925315,
+        "2.0": 0.883028,
+        "5.0": 0.805958,
+        "10.0": 0.6891
+      },
+      "temperature": 0.5
+    },
+    "T2_felt": {
+      "status": "CALIBRATED",
+      "name": "T2_felt",
+      "magnitude": 4.5,
+      "window_days": 2,
+      "n_samples": 15120,
+      "n_positives": 524,
+      "base_rate": 0.038988,
+      "probability_stats": {
+        "mean": 0.321069,
+        "std": 0.165542,
+        "min": 0.01798,
+        "max": 0.911778,
+        "p25": 0.225127,
+        "p50": 0.295849,
+        "p75": 0.354679,
+        "p90": 0.498281,
+        "p95": 0.749806,
+        "p99": 0.863412
+      },
+      "thresholds": {
+        "0.5": 0.883517,
+        "1.0": 0.863412,
+        "2.0": 0.839715,
+        "5.0": 0.749806,
+        "10.0": 0.498281
+      },
+      "temperature": 0.6500000000000001
+    },
+    "T3_minor": {
+      "status": "CALIBRATED",
+      "name": "T3_minor",
+      "magnitude": 5.5,
+      "window_days": 3,
+      "n_samples": 15120,
+      "n_positives": 81,
+      "base_rate": 0.006289,
+      "probability_stats": {
+        "mean": 0.078325,
+        "std": 0.193872,
+        "min": 7e-06,
+        "max": 0.876589,
+        "p25": 0.006132,
+        "p50": 0.01277,
+        "p75": 0.029585,
+        "p90": 0.139066,
+        "p95": 0.673153,
+        "p99": 0.831404
+      },
+      "thresholds": {
+        "0.5": 0.852643,
+        "1.0": 0.831404,
+        "2.0": 0.796758,
+        "5.0": 0.673153,
+        "10.0": 0.139066
+      },
+      "temperature": 0.5
+    },
+    "T4_damage": {
+      "status": "CALIBRATED",
+      "name": "T4_damage",
+      "magnitude": 6.0,
+      "window_days": 3,
+      "n_samples": 15120,
+      "n_positives": 21,
+      "base_rate": 0.00163,
+      "probability_stats": {
+        "mean": 0.06358,
+        "std": 0.185134,
+        "min": 2e-06,
+        "max": 0.854943,
+        "p25": 0.001297,
+        "p50": 0.003517,
+        "p75": 0.00854,
+        "p90": 0.08101,
+        "p95": 0.635083,
+        "p99": 0.802958
+      },
+      "thresholds": {
+        "0.5": 0.808465,
+        "1.0": 0.802958,
+        "2.0": 0.754785,
+        "5.0": 0.635083,
+        "10.0": 0.08101
+      },
+      "temperature": 0.5
+    }
+  }
+}
